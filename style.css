@@ -1,0 +1,493 @@
+/*** header ***/
+
+header
+{
+    height: 190px;
+    padding: 70px 50px;
+}
+
+.logo
+{
+    float: left;
+}
+
+.logo-text
+{
+    float: right;
+
+}
+
+.logo-text p
+{
+    margin-bottom: 0px;
+    text-align: center;
+    margin-left: 15px;
+}
+
+.sport-here
+{
+    font-size: 28px;
+}
+
+.dashboard
+{
+    font-size: 13px;
+    margin-top: -5px;
+}
+
+header .social
+{
+    float: right;
+    padding: 2px 0;
+}
+
+header .social i
+{
+    color: #fff;
+    font-size: 20px;
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    margin-left: 15px;
+    background-color: #1b6d85;
+    border-radius: 50px;
+    vertical-align: middle;
+}
+
+header .social .fa-facebook
+{
+    background-color: #3b5999;
+}
+
+header .social .fa-twitter
+{
+    background-color: #55acee;
+}
+
+header .social .fa-google
+{
+    background-color: #cd201f;
+}
+
+
+/*** Top section ***/
+
+.top
+{
+    padding-top: 100px;
+}
+
+.top img
+{
+    width: 60%;
+    text-align: right;
+    vertical-align: bottom;
+}
+
+.top ul li.phone
+{
+    text-align: center;
+}
+
+.top h1
+{
+    font-size: 55px;
+    text-align: left;
+}
+
+.top p
+{
+    padding-top: 35px;
+    font-size: 17px;
+    text-align: left;
+    font-weight: 500;
+}
+
+.top .row
+{
+    vertical-align: bottom;
+}
+
+.promo-text
+{
+    width: 430px;
+}
+
+.buttons
+{
+    padding-top: 35px;
+    font-size: 18px;
+
+}
+
+.button
+{
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px 25px;
+}
+
+.button.left
+{
+    color: #26a6d1;
+}
+
+.button.left:hover
+{
+    background-color: rgba(255,255,255,0.8);
+}
+
+.button.right
+{
+    color: white;
+    text-decoration: underline;
+}
+
+.button.right:hover
+{
+    color: rgba(255,255,255,0.5);
+    text-decoration:  underline;
+}
+
+.header-text
+{
+    text-align: center;
+}
+
+.top-description
+{
+    font-size: 16px;
+    padding-top: 25px;
+}
+
+
+/*** about us ***/
+
+.about-us-icon i
+{
+    font-size: 70px;
+    color: #c5c5c5;
+}
+
+.about-us-icon i:hover
+{
+    font-size: 70px;
+    color: #3db39e;
+    transition: 0.3s ease-in;
+}
+
+.about-us-icon
+{
+    text-align: center;
+}
+
+.divider {
+    width: 25px;
+    height: 2px;
+    background-color: #c5c5c5;
+    align-content: center;
+}
+
+.about-us
+{
+    padding-bottom: 50px;
+}
+
+.about-us h4
+{
+    font-weight: 900;
+    padding-top: 15px;
+}
+
+.about-us-description
+{
+    line-height: 25px;
+    padding-top: 15px;
+}
+
+
+/*** show app ***/
+
+.show-app
+{
+    background-color: #f6f6f6;
+    padding-top: 75px;
+    position: relative;
+    z-index: 98;
+}
+
+.screenshots img
+{
+    position: relative;
+    box-shadow: 0 0 8px 2px #888;
+    clip-path: inset(-8px -8px 0px -8px);
+}
+
+.screenshots img.sc1
+{
+    width: 45%;
+    z-index: 100;
+    vertical-align: bottom;
+}
+
+.screenshots
+{
+text-align: center;
+}
+
+.sc2
+{
+    width: 35%;
+    z-index: 99;
+    left: 50px;
+}
+
+.impact
+{
+    position: relative;
+    z-index: 115;
+}
+
+.screen-desc
+{
+    margin-top: 35px;
+    width: 80%;
+    float: right;
+}
+.rsm
+{
+    display: none;
+}
+
+
+/*** slider ***/
+
+
+ul.sliderpager
+{
+    position: relative;
+    text-align: center;
+    margin-left: 30% ;
+    z-index: 102;
+    font-size: 10px;
+}
+
+ul.sliderpager li
+{
+    padding: 0 5px;
+    height: 28px;
+    line-height: 28px;
+}
+
+ul.sliderpager li a
+{
+    color: #c5c5c5;
+}
+
+ul.sliderpager li.selected a
+{
+    color: #3db39e;
+}
+
+
+
+
+
+
+
+
+
+ul#sliderpager
+{
+    position: relative;
+    text-align: center;
+    margin-left: 30% ;
+    z-index: 102;
+    font-size: 10px;
+}
+
+ul#sliderpager li
+{
+    padding: 0 5px;
+    height: 28px;
+    line-height: 28px;
+}
+
+ul#sliderpager li a
+{
+    color: #c5c5c5;
+}
+
+ul#sliderpager li.selected a
+{
+    color: #3db39e;
+}
+
+.app-slider li
+{
+    color: white;
+}
+
+
+/*** email ***/
+
+.email
+{
+    background-color: #26a6d1;
+    padding-top: 35px;
+}
+
+.email-center
+{
+    width: 50%;
+}
+
+.email-center ul li
+{
+    text-align: center;
+}
+
+.subscribe-button
+{
+    border-radius: 10px;
+    background-color: white;
+    font-weight: bold;
+    color: #26a6d1;
+    text-align: center;
+    padding: 15px 25px;
+    float: right;
+    width: 35%;
+}
+
+.subscribe-button:hover
+{
+    background-color: rgba(255,255,255,0.8);
+}
+
+input
+{
+    border-radius: 4px;
+    width: 60%;
+    height: 50px;
+    float: left;
+    color: #777;
+    padding-left: 20px;
+    border: none;
+}
+
+.buttons h3
+{
+    padding-bottom: 20px;
+}
+
+
+/*** footer ***/
+
+footer
+{
+    height: 190px;
+    padding: 70px 50px;
+}
+
+footer .social
+{
+    float: right;
+    padding: 2px 0;
+}
+
+footer .social i
+{
+    color: #fff;
+    font-size: 20px;
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    margin-left: 15px;
+    background-color: #1b6d85;
+    border-radius: 50px;
+    vertical-align: middle;
+}
+
+footer .social .fa-facebook
+{
+    background-color: #3b5999;
+}
+
+footer .social .fa-twitter
+{
+    background-color: #55acee;
+}
+
+footer .social .fa-google
+{
+    background-color: #cd201f;
+}
+
+footer .social .fa-app-store
+{
+    background-color: #cd201f;
+    color: white;
+}
+
+.app-store
+{
+    float: left;
+
+    vertical-align: middle;
+
+}
+.vertical-center
+{
+margin-top: 2.5px
+}
+.app-store i {
+    color: #fff;
+    font-size: 37px;
+    width: 40px;
+    height: 40px;
+    line-height: 41px;
+    text-align: center;
+    background-color: #26a6d1;
+    border-radius: 50px;
+    vertical-align: middle;
+}
+
+.app-store a.store
+{
+    padding-left: 5px;
+    font-weight: 500;
+    text-decoration: underline;
+    color: #26a6d1;
+
+}
+
+.app-store p
+{
+    vertical-align: middle;
+    line-height: 41px;
+    padding-left: 20px;
+    float: right;
+}
+
+.app-store a.us
+{
+    line-height: 41px;
+    padding-left: 20px;
+    font-weight: 500;
+    text-decoration: underline;
+    float: right;
+}
+
+
+
+.social
+{
+    text-align: right;
+    float: right;
+}
+
+
+
+
